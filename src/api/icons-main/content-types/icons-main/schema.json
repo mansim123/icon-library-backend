@@ -1,0 +1,94 @@
+{
+  "kind": "collectionType",
+  "collectionName": "icons_mains",
+  "info": {
+    "singularName": "icons-main",
+    "pluralName": "icons-mains",
+    "displayName": "Icons-main",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Light_Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Dark_Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Icon_Pack": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Icon_Description": {
+      "type": "string",
+      "required": true,
+      "maxLength": 15
+    },
+    "Shape": {
+      "type": "enumeration",
+      "enum": [
+        "Square",
+        "Circle",
+        "Misc"
+      ],
+      "default": "Misc",
+      "required": true
+    },
+    "Style": {
+      "type": "enumeration",
+      "enum": [
+        "Outlined",
+        "Filled",
+        "Misc"
+      ],
+      "default": "Misc",
+      "required": true
+    },
+    "Light_Icon_Png": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Dark_Icon_Png": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
