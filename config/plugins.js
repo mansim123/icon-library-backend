@@ -24,6 +24,7 @@ module.exports = ({ env }) => ({
           // Explicitly setting ACL to null
           ACL: null,
         },
+        delete: {}, // Add this line to configure the delete action
       },
     },
   },
