@@ -12,39 +12,6 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Light_Icon": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "Dark_Icon": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
-    "Icon_Pack": {
-      "type": "media",
-      "multiple": false,
-      "required": true,
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ]
-    },
     "Icon_Description": {
       "type": "string",
       "required": true,
@@ -70,25 +37,20 @@
       "default": "Misc",
       "required": true
     },
-    "Light_Icon_Png": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "Light_Icon_Svg": {
+      "type": "string",
+      "required": true
     },
-    "Dark_Icon_Png": {
-      "allowedTypes": [
-        "images",
-        "files",
-        "videos",
-        "audios"
-      ],
-      "type": "media",
-      "multiple": false
+    "Dark_Icon_Svg": {
+      "type": "string"
+    },
+    "Light_Icon_Png": {
+      "type": "string",
+      "required": true
+    },
+    "Icon_Pack": {
+      "type": "string",
+      "required": true
     }
   }
 }
