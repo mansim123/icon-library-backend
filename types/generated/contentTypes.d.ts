@@ -385,10 +385,11 @@ export interface ApiIconsMainIconsMain extends Schema.CollectionType {
     Style: Attribute.Enumeration<['Outlined', 'Filled', 'Misc']> &
       Attribute.Required &
       Attribute.DefaultTo<'Misc'>;
-    Light_Icon_Svg: Attribute.String & Attribute.Required;
-    Dark_Icon_Svg: Attribute.String;
-    Light_Icon_Png: Attribute.String & Attribute.Required;
-    Icon_Pack: Attribute.String & Attribute.Required;
+    Light_Icon_Svg: Attribute.Media;
+    Dark_Icon_Svg: Attribute.Media;
+    Light_Icon_Png: Attribute.Media;
+    Dark_Icon_Png: Attribute.Media;
+    Icon_Pack: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
