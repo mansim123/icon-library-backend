@@ -22,19 +22,6 @@ module.exports = [
       },
     },
   },
-  {
-    name: 'strapi::parser',
-    config: {
-      enabled: true,
-      options: {
-        allowedTags: ['svg', 'path'],
-        allowedAttributes: {
-          svg: ['xmlns', 'viewBox', 'width', 'height', 'fill'],
-          path: ['d', 'stroke', 'stroke-width', 'stroke-linecap'],
-        },
-      },
-    },
-  },
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::logger',
