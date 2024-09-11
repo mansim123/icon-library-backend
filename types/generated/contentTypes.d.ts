@@ -385,7 +385,7 @@ export interface ApiIconsMainIconsMain extends Schema.CollectionType {
     Style: Attribute.Enumeration<['Outlined', 'Filled', 'Misc']> &
       Attribute.Required &
       Attribute.DefaultTo<'Misc'>;
-    Svg_Code: Attribute.String;
+    Svg_Code: Attribute.RichText;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;
